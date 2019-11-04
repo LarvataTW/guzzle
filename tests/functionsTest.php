@@ -1,5 +1,5 @@
 <?php
-namespace GuzzleHttp\Test;
+namespace Larvatatw\Test;
 
 use GuzzleHttp;
 use PHPUnit\Framework\TestCase;

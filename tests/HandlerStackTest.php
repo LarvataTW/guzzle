@@ -1,11 +1,11 @@
 <?php
-namespace GuzzleHttp\Tests;
+namespace Larvatatw\Tests;
 
-use GuzzleHttp\Cookie\CookieJar;
-use GuzzleHttp\Handler\MockHandler;
-use GuzzleHttp\HandlerStack;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
+use Larvatatw\Cookie\CookieJar;
+use Larvatatw\Handler\MockHandler;
+use Larvatatw\HandlerStack;
+use Larvatatw\Psr7\Request;
+use Larvatatw\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 
 class HandlerStackTest extends TestCase

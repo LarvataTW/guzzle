@@ -1,8 +1,8 @@
 <?php
-namespace GuzzleHttp\Test {
+namespace Larvatatw\Test {
     require __DIR__ . '/../vendor/autoload.php';
     require __DIR__ . '/Server.php';
-    use GuzzleHttp\Tests\Server;
+    use Larvatatw\Tests\Server;
 
     Server::start();
     register_shutdown_function(function () {
@@ -11,7 +11,7 @@ namespace GuzzleHttp\Test {
 }
 
 // Override curl_setopt_array() and curl_multi_setopt() to get the last set curl options
-namespace GuzzleHttp\Handler {
+namespace Larvatatw\Handler {
     function curl_setopt_array($handle, array $options)
     {
         if (!empty($_SERVER['curl_test'])) {

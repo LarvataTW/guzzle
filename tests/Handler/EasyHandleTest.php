@@ -1,8 +1,8 @@
 <?php
-namespace GuzzleHttp\Test\Handler;
+namespace Larvatatw\Test\Handler;
 
-use GuzzleHttp\Handler\EasyHandle;
-use GuzzleHttp\Psr7;
+use Larvatatw\Handler\EasyHandle;
+use Larvatatw\Psr7;
 use PHPUnit\Framework\TestCase;
 
 /**

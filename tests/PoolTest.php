@@ -1,14 +1,14 @@
 <?php
-namespace GuzzleHttp\Tests;
+namespace Larvatatw\Tests;
 
-use GuzzleHttp\Client;
-use GuzzleHttp\Exception\ClientException;
-use GuzzleHttp\Handler\MockHandler;
-use GuzzleHttp\HandlerStack;
-use GuzzleHttp\Pool;
+use Larvatatw\Client;
+use Larvatatw\Exception\ClientException;
+use Larvatatw\Handler\MockHandler;
+use Larvatatw\HandlerStack;
+use Larvatatw\Pool;
 use GuzzleHttp\Promise\Promise;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
+use Larvatatw\Psr7\Request;
+use Larvatatw\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\RequestInterface;
 

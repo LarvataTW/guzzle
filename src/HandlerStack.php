@@ -1,5 +1,5 @@
 <?php
-namespace GuzzleHttp;
+namespace Larvatatw;
 
 use GuzzleHttp\Promise\PromiseInterface;
 use Psr\Http\Message\RequestInterface;

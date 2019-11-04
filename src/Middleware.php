@@ -1,10 +1,10 @@
 <?php
-namespace GuzzleHttp;
+namespace Larvatatw;
 
-use GuzzleHttp\Cookie\CookieJarInterface;
-use GuzzleHttp\Exception\RequestException;
+use Larvatatw\Cookie\CookieJarInterface;
+use Larvatatw\Exception\RequestException;
 use GuzzleHttp\Promise\RejectedPromise;
-use GuzzleHttp\Psr7;
+use Larvatatw\Psr7;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Log\LoggerInterface;
 

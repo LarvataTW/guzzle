@@ -21,9 +21,9 @@ default middlewares by wrapping the handler in the
 
 .. code-block:: php
 
-    use GuzzleHttp\Client;
-    use GuzzleHttp\HandlerStack;
-    use GuzzleHttp\Handler\CurlHandler;
+    use Larvatatw\Client;
+    use Larvatatw\HandlerStack;
+    use Larvatatw\Handler\CurlHandler;
 
     $handler = new CurlHandler();
     $stack = HandlerStack::create($handler); // Wrap w/ middleware
@@ -115,9 +115,9 @@ wrapping the handler used by the client or by decorating a handler stack.
 
 .. code-block:: php
 
-    use GuzzleHttp\HandlerStack;
-    use GuzzleHttp\Handler\CurlHandler;
-    use GuzzleHttp\Client;
+    use Larvatatw\HandlerStack;
+    use Larvatatw\Handler\CurlHandler;
+    use Larvatatw\Client;
 
     $stack = new HandlerStack();
     $stack->setHandler(new CurlHandler());
@@ -134,9 +134,9 @@ downstream handler. This example adds a header to the response.
 
     use Psr\Http\Message\RequestInterface;
     use Psr\Http\Message\ResponseInterface;
-    use GuzzleHttp\HandlerStack;
-    use GuzzleHttp\Handler\CurlHandler;
-    use GuzzleHttp\Client;
+    use Larvatatw\HandlerStack;
+    use Larvatatw\Handler\CurlHandler;
+    use Larvatatw\Client;
 
     function add_response_header($header, $value)
     {
@@ -167,10 +167,10 @@ a function that takes the request argument and returns the request to send.
 .. code-block:: php
 
     use Psr\Http\Message\RequestInterface;
-    use GuzzleHttp\HandlerStack;
-    use GuzzleHttp\Handler\CurlHandler;
-    use GuzzleHttp\Client;
-    use GuzzleHttp\Middleware;
+    use Larvatatw\HandlerStack;
+    use Larvatatw\Handler\CurlHandler;
+    use Larvatatw\Client;
+    use Larvatatw\Middleware;
 
     $stack = new HandlerStack();
     $stack->setHandler(new CurlHandler());
@@ -187,10 +187,10 @@ Modifying a response is also much simpler using the
 .. code-block:: php
 
     use Psr\Http\Message\ResponseInterface;
-    use GuzzleHttp\HandlerStack;
-    use GuzzleHttp\Handler\CurlHandler;
-    use GuzzleHttp\Client;
-    use GuzzleHttp\Middleware;
+    use Larvatatw\HandlerStack;
+    use Larvatatw\Handler\CurlHandler;
+    use Larvatatw\Client;
+    use Larvatatw\Middleware;
 
     $stack = new HandlerStack();
     $stack->setHandler(new CurlHandler());
@@ -215,9 +215,9 @@ stack.
 .. code-block:: php
 
     use Psr\Http\Message\RequestInterface;
-    use GuzzleHttp\HandlerStack;
-    use GuzzleHttp\Middleware;
-    use GuzzleHttp\Client;
+    use Larvatatw\HandlerStack;
+    use Larvatatw\Middleware;
+    use Larvatatw\Client;
 
     $stack = new HandlerStack();
     $stack->setHandler(\GuzzleHttp\choose_handler());
@@ -256,7 +256,7 @@ by name.
 .. code-block:: php
 
     use Psr\Http\Message\RequestInterface;
-    use GuzzleHttp\Middleware;
+    use Larvatatw\Middleware;
 
     // Add a middleware with a name
     $stack->push(Middleware::mapRequest(function (RequestInterface $r) {

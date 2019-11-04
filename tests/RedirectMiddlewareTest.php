@@ -1,13 +1,13 @@
 <?php
-namespace GuzzleHttp\Tests;
+namespace Larvatatw\Tests;
 
-use GuzzleHttp\Client;
-use GuzzleHttp\Handler\MockHandler;
-use GuzzleHttp\HandlerStack;
-use GuzzleHttp\Middleware;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
-use GuzzleHttp\RedirectMiddleware;
+use Larvatatw\Client;
+use Larvatatw\Handler\MockHandler;
+use Larvatatw\HandlerStack;
+use Larvatatw\Middleware;
+use Larvatatw\Psr7\Request;
+use Larvatatw\Psr7\Response;
+use Larvatatw\RedirectMiddleware;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\RequestInterface;
 

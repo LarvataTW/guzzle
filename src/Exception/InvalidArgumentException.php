@@ -1,6 +1,6 @@
 <?php
 
-namespace GuzzleHttp\Exception;
+namespace Larvatatw\Exception;
 
 final class InvalidArgumentException extends \InvalidArgumentException implements GuzzleException
 {

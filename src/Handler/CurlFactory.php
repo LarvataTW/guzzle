@@ -1,12 +1,12 @@
 <?php
-namespace GuzzleHttp\Handler;
+namespace Larvatatw\Handler;
 
-use GuzzleHttp\Exception\ConnectException;
-use GuzzleHttp\Exception\RequestException;
+use Larvatatw\Exception\ConnectException;
+use Larvatatw\Exception\RequestException;
 use GuzzleHttp\Promise\FulfilledPromise;
-use GuzzleHttp\Psr7;
-use GuzzleHttp\Psr7\LazyOpenStream;
-use GuzzleHttp\TransferStats;
+use Larvatatw\Psr7;
+use Larvatatw\Psr7\LazyOpenStream;
+use Larvatatw\TransferStats;
 use Psr\Http\Message\RequestInterface;
 
 /**

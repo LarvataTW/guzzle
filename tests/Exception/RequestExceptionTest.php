@@ -1,10 +1,10 @@
 <?php
-namespace GuzzleHttp\Tests\Exception;
+namespace Larvatatw\Tests\Exception;
 
-use GuzzleHttp\Exception\RequestException;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
-use GuzzleHttp\Psr7\Stream;
+use Larvatatw\Exception\RequestException;
+use Larvatatw\Psr7\Request;
+use Larvatatw\Psr7\Response;
+use Larvatatw\Psr7\Stream;
 use PHPUnit\Framework\TestCase;
 
 /**

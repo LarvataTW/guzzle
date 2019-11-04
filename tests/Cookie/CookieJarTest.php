@@ -1,13 +1,13 @@
 <?php
-namespace GuzzleHttp\Tests\CookieJar;
+namespace Larvatatw\Tests\CookieJar;
 
 use DateInterval;
 use DateTime;
 use DateTimeImmutable;
-use GuzzleHttp\Cookie\CookieJar;
-use GuzzleHttp\Cookie\SetCookie;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
+use Larvatatw\Cookie\CookieJar;
+use Larvatatw\Cookie\SetCookie;
+use Larvatatw\Psr7\Request;
+use Larvatatw\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 
 /**

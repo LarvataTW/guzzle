@@ -1,9 +1,9 @@
 <?php
-namespace GuzzleHttp;
+namespace Larvatatw;
 
 use GuzzleHttp\Promise\PromiseInterface;
 use GuzzleHttp\Promise\RejectedPromise;
-use GuzzleHttp\Psr7;
+use Larvatatw\Psr7;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 

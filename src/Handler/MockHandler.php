@@ -1,11 +1,11 @@
 <?php
-namespace GuzzleHttp\Handler;
+namespace Larvatatw\Handler;
 
-use GuzzleHttp\Exception\RequestException;
-use GuzzleHttp\HandlerStack;
+use Larvatatw\Exception\RequestException;
+use Larvatatw\HandlerStack;
 use GuzzleHttp\Promise\PromiseInterface;
 use GuzzleHttp\Promise\RejectedPromise;
-use GuzzleHttp\TransferStats;
+use Larvatatw\TransferStats;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 

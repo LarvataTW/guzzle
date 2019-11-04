@@ -1,10 +1,10 @@
 <?php
-namespace GuzzleHttp\Test\Handler;
+namespace Larvatatw\Test\Handler;
 
-use GuzzleHttp\Handler\MockHandler;
-use GuzzleHttp\Handler\Proxy;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\RequestOptions;
+use Larvatatw\Handler\MockHandler;
+use Larvatatw\Handler\Proxy;
+use Larvatatw\Psr7\Request;
+use Larvatatw\RequestOptions;
 use PHPUnit\Framework\TestCase;
 
 /**

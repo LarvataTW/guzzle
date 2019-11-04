@@ -1,5 +1,5 @@
 <?php
-namespace GuzzleHttp\Handler;
+namespace Larvatatw\Handler;
 
 use Psr\Http\Message\RequestInterface;
 

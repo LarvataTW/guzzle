@@ -1,5 +1,5 @@
 <?php
-namespace GuzzleHttp;
+namespace Larvatatw;
 
 use GuzzleHttp\Promise\EachPromise;
 use GuzzleHttp\Promise\PromisorInterface;

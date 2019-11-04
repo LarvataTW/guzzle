@@ -1,7 +1,7 @@
 <?php
-namespace GuzzleHttp\Tests;
+namespace Larvatatw\Tests;
 
-use GuzzleHttp\UriTemplate;
+use Larvatatw\UriTemplate;
 use PHPUnit\Framework\TestCase;
 
 /**

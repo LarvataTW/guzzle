@@ -1,8 +1,8 @@
 <?php
-namespace GuzzleHttp\Tests\CookieJar;
+namespace Larvatatw\Tests\CookieJar;
 
-use GuzzleHttp\Cookie\FileCookieJar;
-use GuzzleHttp\Cookie\SetCookie;
+use Larvatatw\Cookie\FileCookieJar;
+use Larvatatw\Cookie\SetCookie;
 use PHPUnit\Framework\TestCase;
 
 /**

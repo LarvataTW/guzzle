@@ -1,9 +1,9 @@
 <?php
-namespace GuzzleHttp;
+namespace Larvatatw;
 
-use GuzzleHttp\Cookie\CookieJar;
-use GuzzleHttp\Promise;
-use GuzzleHttp\Psr7;
+use Larvatatw\Cookie\CookieJar;
+use Larvatatw\Promise;
+use Larvatatw\Psr7;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\UriInterface;

@@ -1,12 +1,12 @@
 <?php
-namespace GuzzleHttp\Test\Handler;
+namespace Larvatatw\Test\Handler;
 
-use GuzzleHttp\Exception\ConnectException;
-use GuzzleHttp\Handler\CurlHandler;
-use GuzzleHttp\Psr7;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
-use GuzzleHttp\Tests\Server;
+use Larvatatw\Exception\ConnectException;
+use Larvatatw\Handler\CurlHandler;
+use Larvatatw\Psr7;
+use Larvatatw\Psr7\Request;
+use Larvatatw\Psr7\Response;
+use Larvatatw\Tests\Server;
 use PHPUnit\Framework\TestCase;
 
 /**

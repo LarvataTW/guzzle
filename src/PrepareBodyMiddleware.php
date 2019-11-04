@@ -1,8 +1,8 @@
 <?php
-namespace GuzzleHttp;
+namespace Larvatatw;
 
 use GuzzleHttp\Promise\PromiseInterface;
-use GuzzleHttp\Psr7;
+use Larvatatw\Psr7;
 use Psr\Http\Message\RequestInterface;
 
 /**

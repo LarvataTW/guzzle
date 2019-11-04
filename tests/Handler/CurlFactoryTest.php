@@ -1,12 +1,12 @@
 <?php
-namespace GuzzleHttp\Test\Handler;
+namespace Larvatatw\Test\Handler;
 
-use GuzzleHttp\Handler;
-use GuzzleHttp\Handler\CurlFactory;
-use GuzzleHttp\Handler\EasyHandle;
-use GuzzleHttp\Psr7;
-use GuzzleHttp\Tests\Server;
-use GuzzleHttp\TransferStats;
+use Larvatatw\Handler;
+use Larvatatw\Handler\CurlFactory;
+use Larvatatw\Handler\EasyHandle;
+use Larvatatw\Psr7;
+use Larvatatw\Tests\Server;
+use Larvatatw\TransferStats;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ResponseInterface;
 

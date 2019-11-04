@@ -1,7 +1,7 @@
 <?php
-namespace GuzzleHttp;
+namespace Larvatatw;
 
-use GuzzleHttp\Exception\GuzzleException;
+use Larvatatw\Exception\GuzzleException;
 use GuzzleHttp\Promise\PromiseInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;

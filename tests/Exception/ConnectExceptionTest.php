@@ -1,8 +1,8 @@
 <?php
-namespace GuzzleHttp\Tests\Exception;
+namespace Larvatatw\Tests\Exception;
 
-use GuzzleHttp\Exception\ConnectException;
-use GuzzleHttp\Psr7\Request;
+use Larvatatw\Exception\ConnectException;
+use Larvatatw\Psr7\Request;
 use PHPUnit\Framework\TestCase;
 
 /**

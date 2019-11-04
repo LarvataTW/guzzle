@@ -1,11 +1,11 @@
 <?php
-namespace GuzzleHttp\Test\Handler;
+namespace Larvatatw\Test\Handler;
 
-use GuzzleHttp\Handler\MockHandler;
+use Larvatatw\Handler\MockHandler;
 use GuzzleHttp\Promise\PromiseInterface;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
-use GuzzleHttp\TransferStats;
+use Larvatatw\Psr7\Request;
+use Larvatatw\Psr7\Response;
+use Larvatatw\TransferStats;
 use PHPUnit\Framework\TestCase;
 
 /**

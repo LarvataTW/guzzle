@@ -1,10 +1,10 @@
 <?php
-namespace GuzzleHttp;
+namespace Larvatatw;
 
-use GuzzleHttp\Exception\BadResponseException;
-use GuzzleHttp\Exception\TooManyRedirectsException;
+use Larvatatw\Exception\BadResponseException;
+use Larvatatw\Exception\TooManyRedirectsException;
 use GuzzleHttp\Promise\PromiseInterface;
-use GuzzleHttp\Psr7;
+use Larvatatw\Psr7;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\UriInterface;

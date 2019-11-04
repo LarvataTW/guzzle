@@ -1,8 +1,8 @@
 <?php
-namespace GuzzleHttp\Tests;
+namespace Larvatatw\Tests;
 
-use GuzzleHttp\Client;
-use GuzzleHttp\Psr7;
+use Larvatatw\Client;
+use Larvatatw\Psr7;
 use Psr\Http\Message\ResponseInterface;
 
 /**

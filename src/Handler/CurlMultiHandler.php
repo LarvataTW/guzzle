@@ -1,8 +1,8 @@
 <?php
-namespace GuzzleHttp\Handler;
+namespace Larvatatw\Handler;
 
-use GuzzleHttp\Exception\InvalidArgumentException;
-use GuzzleHttp\Promise as P;
+use Larvatatw\Exception\InvalidArgumentException;
+use Larvatatw\Promise as P;
 use GuzzleHttp\Promise\Promise;
 use Psr\Http\Message\RequestInterface;
 

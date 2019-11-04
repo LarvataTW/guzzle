@@ -1,7 +1,7 @@
 <?php
-namespace GuzzleHttp\Handler;
+namespace Larvatatw\Handler;
 
-use GuzzleHttp\RequestOptions;
+use Larvatatw\RequestOptions;
 use Psr\Http\Message\RequestInterface;
 
 /**

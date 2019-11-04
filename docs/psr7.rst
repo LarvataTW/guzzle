@@ -15,7 +15,7 @@ You can create a request using the ``GuzzleHttp\Psr7\Request`` class:
 
 .. code-block:: php
 
-    use GuzzleHttp\Psr7\Request;
+    use Larvatatw\Psr7\Request;
 
     $request = new Request('GET', 'http://httpbin.org/get');
 
@@ -28,7 +28,7 @@ You can create a response using the ``GuzzleHttp\Psr7\Response`` class:
 
 .. code-block:: php
 
-    use GuzzleHttp\Psr7\Response;
+    use Larvatatw\Psr7\Response;
 
     // The constructor requires no arguments.
     $response = new Response();
@@ -57,7 +57,7 @@ You can check if a request or response has a specific header using the
 
 .. code-block:: php
 
-    use GuzzleHttp\Psr7;
+    use Larvatatw\Psr7;
 
     $request = new Psr7\Request('GET', '/', ['X-Foo' => 'bar']);
 
@@ -100,7 +100,7 @@ headers:
 
 .. code-block:: php
 
-    use GuzzleHttp\Psr7;
+    use Larvatatw\Psr7;
 
     $request = new Psr7\Request('GET', '/', [
         'Link' => '<http:/.../front.jpeg>; rel="front"; type="image/jpeg"'
@@ -158,7 +158,7 @@ write bytes off of the stream as needed.
 
 .. code-block:: php
 
-    use GuzzleHttp\Stream\Stream;
+    use Larvatatw\Stream\Stream;
     $response = $client->request('GET', 'http://httpbin.org/get');
 
     echo $response->getBody()->read(4);
@@ -379,7 +379,7 @@ of ``Psr\Http\Message\StreamInterface``.
 
 .. code-block:: php
 
-    use GuzzleHttp\Psr7;
+    use Larvatatw\Psr7;
 
     $stream = Psr7\stream_for('string data');
     echo $stream;
@@ -399,7 +399,7 @@ requested by a stream consumer will be buffered until a subsequent read.
 
 .. code-block:: php
 
-    use GuzzleHttp\Psr7;
+    use Larvatatw\Psr7;
 
     $generator = function ($bytes) {
         for ($i = 0; $i < $bytes; $i++) {
@@ -422,7 +422,7 @@ and can optionally expose other custom data.
 
 .. code-block:: php
 
-    use GuzzleHttp\Psr7;
+    use Larvatatw\Psr7;
 
     $resource = fopen('/path/to/file', 'r');
     $stream = Psr7\stream_for($resource);

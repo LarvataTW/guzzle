@@ -1,10 +1,10 @@
 <?php
-namespace GuzzleHttp;
+namespace Larvatatw;
 
-use GuzzleHttp\Handler\CurlHandler;
-use GuzzleHttp\Handler\CurlMultiHandler;
-use GuzzleHttp\Handler\Proxy;
-use GuzzleHttp\Handler\StreamHandler;
+use Larvatatw\Handler\CurlHandler;
+use Larvatatw\Handler\CurlMultiHandler;
+use Larvatatw\Handler\Proxy;
+use Larvatatw\Handler\StreamHandler;
 
 /**
  * Expands a URI template

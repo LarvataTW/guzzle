@@ -1,10 +1,10 @@
 <?php
-namespace GuzzleHttp\Tests\Handler;
+namespace Larvatatw\Tests\Handler;
 
-use GuzzleHttp\Handler\CurlMultiHandler;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
-use GuzzleHttp\Tests\Server;
+use Larvatatw\Handler\CurlMultiHandler;
+use Larvatatw\Psr7\Request;
+use Larvatatw\Psr7\Response;
+use Larvatatw\Tests\Server;
 use PHPUnit\Framework\TestCase;
 
 class CurlMultiHandlerTest extends TestCase

@@ -1,5 +1,5 @@
 <?php
-namespace GuzzleHttp\Exception;
+namespace Larvatatw\Exception;
 
 /**
  * Exception when a server error is encountered (5xx codes)
