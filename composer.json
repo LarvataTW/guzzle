@@ -24,7 +24,7 @@
         "php": ">=5.5",
         "ext-json": "*",
         "guzzlehttp/promises": "^1.0",
-        "larvatatw/psr7": "^1.6.1"
+        "larvatatw/psr7": "master"
     },
     "require-dev": {
         "ext-curl": "*",
