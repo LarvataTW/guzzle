@@ -2,7 +2,7 @@
 namespace Larvatatw;
 
 use Larvatatw\Cookie\CookieJar;
-use Larvatatw\Promise;
+use GuzzleHttp\Promise;
 use Larvatatw\Psr7;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
