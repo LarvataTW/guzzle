@@ -1,5 +1,5 @@
 {
-    "name": "guzzlehttp/guzzle",
+    "name": "larvatatw/guzzle",
     "type": "library",
     "description": "Guzzle is a PHP HTTP client library",
     "keywords": [
@@ -24,7 +24,7 @@
         "php": ">=5.5",
         "ext-json": "*",
         "guzzlehttp/promises": "^1.0",
-        "guzzlehttp/psr7": "^1.6.1"
+        "larvatatw/psr7": "^1.6.1"
     },
     "require-dev": {
         "ext-curl": "*",
@@ -44,7 +44,7 @@
     },
     "autoload": {
         "psr-4": {
-            "GuzzleHttp\\": "src/"
+            "Larvatatw\\": "src/"
         },
         "files": [
             "src/functions_include.php"
@@ -52,7 +52,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "GuzzleHttp\\Tests\\": "tests/"
+            "Larvatatw\\Tests\\": "tests/"
         }
     }
 }
